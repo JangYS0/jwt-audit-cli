@@ -1,0 +1,29 @@
+{
+  "name": "jwt-audit-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency offline Node.js CLI & module to decode JWTs and flag alg:none, missing exp/iss/aud, suspicious kid paths, and sensitive payload claims.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "jwt-audit": "./cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "jwt",
+    "security",
+    "oauth2",
+    "jwk",
+    "oidc",
+    "audit",
+    "cli",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "homepage": "https://global-utils.com/en/jwt-decoder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JangYS0/jwt-audit-cli.git"
+  }
+}
